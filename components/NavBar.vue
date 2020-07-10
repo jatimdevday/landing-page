@@ -13,11 +13,15 @@
     </div>
 
     <ul>
-      <li>
-        <nuxt-link to="/">HOME</nuxt-link>
+      <li class="join">
+        <nuxt-link to="/about">
+          Join
+        </nuxt-link>
       </li>
-      <li>
-        <nuxt-link to="/about">ABOUT</nuxt-link>
+      <li class="login">
+        <nuxt-link to="/">
+          Log In
+        </nuxt-link>
       </li>
     </ul>
   </div>

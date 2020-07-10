@@ -2,19 +2,9 @@
   <div>
     <NavBar />
     <div class="main">
-      wkaakakasknlk
-      sad
-      appear-class="dasda
-      asdas
-      adsas
-      adsas
-      adsasda
-      asdsa"
-      asjdsab
-      aksjdna
-      asdjka
-      askdja
-      kadsjh
+      <h1 class="title">
+        wakakakaka
+      </h1>
     </div>
   </div>
 </template>

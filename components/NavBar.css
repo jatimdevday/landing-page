@@ -26,7 +26,7 @@ ul {
   list-style-type: none;
   margin-top: 0px;
   margin-left: 0px;
-  padding: 0;
+  padding-top: 9px;
   overflow: hidden;
 }
 
@@ -34,16 +34,43 @@ li {
   float: right;
 }
 
+li.join{
+  margin-right: 113px;
+  background-color: #50196C;
+  color: white;
+  border-radius: 35px;
+  text-align: center;
+  font-size: 16px;
+  /* padding: 18px 40px; */
+  text-decoration: none;
+  display: block;
+}
+
+li.login{
+  margin-right: 40px;
+  background-color: white;
+  color: purple;
+  border-radius: 35px;
+  text-align: center;
+  font-size: 16px;
+  /* padding: 18px 40px; */
+  text-decoration: none;
+  display: block;
+}
+
 li a {
   display: block;
-  color: purple;
+  /* color: white; */
   text-align: center;
-  padding: 18px 20px;
+  font-size: 16px;
+  padding: 18px 50px;
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color: rgb(175, 29, 175);
+  border-radius: 35px;
+  color: white;
 }
 
 @screen sm {
