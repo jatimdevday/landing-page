@@ -13,12 +13,12 @@
 .logo img{
   padding-top: 13px;
   padding-left: 113px;
+  padding: 13px 0px 0 113px;
   float: left;
 }
 
 img.textlogo{
-  padding-top: 33px;
-  padding-left: 10px;
+  padding: 33px 20px 0 10px;
   /* display: inline-block; */
 }
 
