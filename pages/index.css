@@ -4,6 +4,7 @@
   /* position: relative; */
   width: 100%;
   justify-content: center;
+  text-align: center;
   height: 100vh;
 }
 
@@ -30,7 +31,7 @@
 
 input{
   text-align: left;
-  margin-left: 15%;
+  justify-content: center;
   margin-top: 20px;
   padding: 20px 400px;
 }
