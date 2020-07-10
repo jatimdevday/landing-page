@@ -24,9 +24,9 @@ img.textlogo{
 
 ul {
   list-style-type: none;
-  margin-top: 0px;
-  margin-left: 0px;
-  padding-top: 9px;
+  /* margin-top: 0px;
+  margin-left: 0px; */
+  padding-top: 10px;
   overflow: hidden;
 }
 
@@ -71,11 +71,12 @@ li a:hover:not(.active) {
   background-color: rgb(175, 29, 175);
   border-radius: 35px;
   color: white;
+  transition: background .15s ease-in;
 }
 
 @screen sm {
   .navbar {
-    @apply bg-white h-10;
+    @apply bg-white h-16;
   }
 }
 

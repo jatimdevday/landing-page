@@ -1,15 +1,16 @@
 <template>
   <div class="navbar">
     <div class="logo">
-      <img
-        src="../static/JDD-logo.svg"
-        alt="logo JDD"
-      >
-      <img
-        class="textlogo"
-        src="../static/JDD-text.svg"
-        alt="text logo JDD"
-      >
+      <a href="/">
+        <img
+          src="../static/JDD-logo.svg"
+          alt="logo JDD"
+        >
+        <img
+          class="textlogo"
+          src="../static/JDD-text.svg"
+          alt="text logo JDD"
+        ></a>
     </div>
 
     <ul>
