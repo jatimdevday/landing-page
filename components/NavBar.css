@@ -11,7 +11,6 @@ img.textlogo{
   @apply pt-8 pr-10 pl-4;
 }
 
-
 ul {
   @apply pt-3 overflow-hidden list-none;
 }
@@ -42,8 +41,8 @@ li a:hover:not(.active) {
   @apply transition-colors ease-in duration-150;
 }
 
-/* nyoba responsive */
 
+/* nyoba responsive */
 @screen sm {
   .navbar {
     @apply bg-white h-16;
