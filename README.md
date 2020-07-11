@@ -1,6 +1,6 @@
-# ** _Jatim Developer Day Offical Website_ **
+#** _Jatim Developer Day Offical Website_**
 
-> Jatim Developer Day Landing Page
+<!-- > Website Landing Page Jatim Developer Day Landing Page -->
 
 # ** Design Website **
 ![](static/design.jpg)
