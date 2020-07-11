@@ -1,6 +1,6 @@
 <link href="https://myCDN.com/prism@v1.x/themes/prism.css" rel="stylesheet" />
 
-# **Jatim Developer Day **
+# **Jatim Developer Day**
 > Offical Website Landing Page JDD
 
 # **Design Website**
@@ -16,6 +16,7 @@
 * Section Kegiatan
 
 # **Proses Development**
+<pre><code class="language-css">
 ```bash
 # install dependencies
 $ npm install
@@ -30,3 +31,7 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
+</code></pre>
+
+<script src="https://myCDN.com/prism@v1.x/components/prism-core.min.js"></script>
+<script src="https://myCDN.com/prism@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
