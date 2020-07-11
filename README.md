@@ -1,19 +1,19 @@
-#** _Jatim Developer Day Offical Website_**
+# **Jatim Developer Day Offical Website**
 
 <!-- > Website Landing Page Jatim Developer Day Landing Page -->
 
-# ** Design Website **
+# **Design Website**
 ![](static/design.jpg)
 
 
-# ** Fitur Website **
+# **Fitur Website**
 * Join Website
 * Log In
 * Search Community
 * Section Community & Media Partner
 * Section Kegiatan
 
-# ** Proses Development **
+# **Proses Development**
 ```bash
 # install dependencies
 $ npm install
