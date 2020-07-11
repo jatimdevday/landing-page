@@ -1,9 +1,19 @@
-# jdd-landing-page
+# ** _Jatim Developer Day Offical Website_ **
 
 > Jatim Developer Day Landing Page
 
-## Build Setup
+# ** Design Website **
+![](static/design.jpg)
 
+
+# ** Fitur Website **
+* Join Website
+* Log In
+* Search Community
+* Section Community & Media Partner
+* Section Kegiatan
+
+# ** Proses Development **
 ```bash
 # install dependencies
 $ npm install
@@ -18,5 +28,3 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
