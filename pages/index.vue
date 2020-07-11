@@ -1,7 +1,7 @@
 <template>
   <div>
     <NavBar />
-    <div class="main">
+    <div class="container-main">
       <h1 class="title">
         Jatim Developer Day
       </h1>
@@ -9,12 +9,14 @@
         Kolaborasi antar komunitas di Jawa Timur yang berawal dari guyonan <br>
         di salah satu grup diskusi komunitas
       </h2>
-      <div class="searchbar">
+
+      <div class="container-searchbar">
         <input
-          class="input"
+          class="searchbar"
           type="text"
           placeholder="Search community"
         >
+        <button>Search</button>
       </div>
     </div>
   </div>
