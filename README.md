@@ -1,8 +1,10 @@
-# **Jatim Developer Day Offical Website**
+<link href="https://myCDN.com/prism@v1.x/themes/prism.css" rel="stylesheet" />
 
-<!-- > Website Landing Page Jatim Developer Day Landing Page -->
+# **Jatim Developer Day **
+> Offical Website Landing Page JDD
 
 # **Design Website**
+> Design By Figma
 ![](static/design.jpg)
 
 
