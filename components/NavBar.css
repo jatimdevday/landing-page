@@ -1,78 +1,48 @@
 .navbar {
-  position: fixed;
-  /* opacity: 1; */
-  background-color: #333;
-  top: 0;
-  left: 0;
-  z-index: 9899;
-  width: 100%;
-  height: 100px;
-
+  @apply fixed w-full z-50;
 }
 
 .logo img{
-  padding-top: 13px;
-  padding-left: 113px;
-  padding: 13px 0px 0 113px;
-  float: left;
+  @apply pt-3 pl-24;
+  @apply float-left;
 }
 
 img.textlogo{
-  padding: 33px 20px 0 10px;
-  /* display: inline-block; */
+  @apply pt-8 pr-10 pl-4;
 }
 
+
 ul {
-  list-style-type: none;
-  /* margin-top: 0px;
-  margin-left: 0px; */
-  padding-top: 10px;
-  overflow: hidden;
+  @apply pt-3 overflow-hidden list-none;
 }
 
 li {
-  float: right;
+  @apply float-right;
 }
 
 li.join{
-  margin-right: 113px;
   background-color: #50196C;
-  color: white;
-  border-radius: 35px;
-  text-align: center;
-  font-size: 16px;
-  /* padding: 18px 40px; */
-  text-decoration: none;
-  display: block;
+  @apply rounded-full mr-24 text-white text-center;
+  @apply block no-underline;
 }
 
 li.login{
-  margin-right: 20px;
-  background-color: white;
-  color: purple;
-  border-radius: 35px;
-  text-align: center;
-  font-size: 16px;
-  /* padding: 18px 40px; */
-  text-decoration: none;
-  display: block;
+  @apply mr-8 bg-white text-purple-700;
+  @apply block text-center no-underline;
 }
 
 li a {
-  display: block;
-  /* color: white; */
-  text-align: center;
-  font-size: 18px;
-  padding: 16px 50px;
-  text-decoration: none;
+  @apply block text-center text-lg no-underline;
+  @apply pt-4 pr-12 pb-4 pl-12 ;
 }
 
 li a:hover:not(.active) {
   background-color: rgb(175, 29, 175);
-  border-radius: 35px;
-  color: white;
-  transition: background .15s ease-in;
+  @apply rounded-full text-white;
+  @apply transition-colors ease-in duration-150;
 }
+
+/* nyoba responsive */
 
 @screen sm {
   .navbar {

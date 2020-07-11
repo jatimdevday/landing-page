@@ -9,10 +9,12 @@
         Kolaborasi antar komunitas di Jawa Timur yang berawal dari guyonan <br>
         di salah satu grup diskusi komunitas
       </h2>
-      <input
-        type="text"
-        placeholder="Search community"
-      >
+      <div class="searchbar">
+        <input
+          type="text"
+          placeholder="Search community"
+        >
+      </div>
     </div>
   </div>
 </template>

@@ -15,12 +15,12 @@
 
     <ul>
       <li class="join">
-        <nuxt-link to="/about">
+        <nuxt-link to="/register">
           Join
         </nuxt-link>
       </li>
       <li class="login">
-        <nuxt-link to="/">
+        <nuxt-link to="/login">
           Log In
         </nuxt-link>
       </li>

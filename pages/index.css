@@ -4,9 +4,15 @@
   /* position: relative; */
   width: 100%;
   justify-content: center;
-  text-align: center;
   height: 100vh;
 }
+
+.searchbar{
+  text-align: center;
+  border-radius: 5px;
+  @apply grid grid-cols-12 w-4;
+}
+
 
 .title {
   font-family: 'Roboto', sans-serif;
