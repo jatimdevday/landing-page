@@ -11,6 +11,11 @@
       </h2>
 
       <div class="container-searchbar">
+        <!-- <img
+          src="../static/Vector.svg"
+          alt=",,"
+          class="search-logo"
+        > -->
         <input
           class="searchbar"
           type="text"

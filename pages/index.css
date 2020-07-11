@@ -1,3 +1,5 @@
+/* main */
+
 .container-main{
   background-image: url("../static/bg-main.png");
   @apply h-screen justify-center w-full bg-cover;
@@ -15,14 +17,28 @@
 }
 
 
-/* lumayan fixed searchbar */
+/* searchbar */
 
 .container-searchbar{
   @apply pt-10 flex justify-center;
 }
 
+.search-logo{
+  position:absolute;
+    bottom:2px;
+    right:5px;
+    width:24px;
+    height:24px;
+}
+
 .searchbar{
-  @apply flex relative border-black rounded-l-lg pl-10 py-4 pr-64;
+  @apply flex relative border-black rounded-l-lg pl-16 py-4 pr-64 inline-block bg-no-repeat;
+  background-image: url("../static/Vector.svg");
+  background-position: 5% 50%;
+}
+
+.searchbar:focus{
+  outline: none;
 }
 
 button{
@@ -30,6 +46,8 @@ button{
   background-color: #FA7268;
 }
 
-/* .input{
-  @apply text-left mt-8 pt-5 pb-5 pl-5;
-} */
+button:focus{
+  background-color: rgb(255, 175, 175);
+  /* color: black; */
+  @apply outline-none
+}
