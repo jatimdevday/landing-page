@@ -11,6 +11,7 @@
       </h2>
       <div class="searchbar">
         <input
+          class="input"
           type="text"
           placeholder="Search community"
         >

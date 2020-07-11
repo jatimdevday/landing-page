@@ -1,49 +1,27 @@
 .main{
   background-image: url("../static/bg-main.png");
-  background-size: cover;
-  /* position: relative; */
-  width: 100%;
-  justify-content: center;
-  height: 100vh;
+  @apply h-screen justify-center w-full bg-cover;
 }
 
+.title {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 30vh;
+  @apply block font-bold text-7xl text-white text-center; /*added font size '7xl' in tailwind.config.js*/
+}
+
+.subtitle {
+  font-family: 'Roboto', sans-serif;
+  @apply block font-normal text-xl text-white text-center;
+}
+
+
+/* not fixed searchbar */
 .searchbar{
   text-align: center;
   border-radius: 5px;
   @apply grid grid-cols-12 w-4;
 }
 
-
-.title {
-  font-family: 'Roboto', sans-serif;
-  display: block;
-  font-weight: bold;
-  font-size: 80px;
-  color: white;
-  letter-spacing: 1px;
-  padding-top: 35vh;
-  text-align: center;
+.input{
+  @apply text-left mt-8 pt-5 pb-5 pl-5;
 }
-
-.subtitle {
-  font-family: 'Roboto', sans-serif;
-  display: block;
-  font-weight: normal;
-  font-size: 20px;
-  color: white;
-  letter-spacing: 1px;
-  text-align: center;
-}
-
-input{
-  text-align: left;
-  margin-top: 20px;
-  padding: 10px 0 10px 10px;
-  min-width: 400px;
-}
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-
