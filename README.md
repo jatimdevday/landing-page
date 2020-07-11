@@ -16,10 +16,9 @@
 * Section Kegiatan
 
 # **Proses Development**
-<pre><code class="language-css">
 ```bash
 # install dependencies
-$ npm install
+$ <pre><code class="language-css">npm install</code></pre>
 
 # serve with hot reload at localhost:3000
 $ npm run dev
@@ -31,7 +30,7 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
-</code></pre>
+
 
 <script src="https://myCDN.com/prism@v1.x/components/prism-core.min.js"></script>
 <script src="https://myCDN.com/prism@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
