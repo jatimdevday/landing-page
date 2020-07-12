@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import './NavBar.css'
+import './navbar.css'
 
 export default {}
 </script>
