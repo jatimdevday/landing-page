@@ -1,16 +1,16 @@
 <template>
-  <div class="container-register">
+  <div class="container-login">
     <NavBar />
   </div>
 </template>
 
 <script>
 import NavBar from '../components/navbar.vue'
-import './register.css'
+import './login.css'
 
 export default {
   components: {
     NavBar
   }
 }
-</script>
+</script>>

@@ -1,0 +1,5 @@
+/* register */
+.container-register{
+  background-image: url("../static/bg-main.svg");
+  @apply h-screen justify-center w-full bg-cover;
+}

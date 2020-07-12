@@ -5,12 +5,11 @@
 
 /* logo JDD */
 .logo img{
-  @apply pt-3 pl-24;
-  @apply float-left;
+  @apply pt-3 pl-24 pb-4 float-left;
 }
 
 img.textlogo{
-  @apply pt-8 pr-10 pl-4;
+  @apply pt-8 pr-10 pb-8 pl-4;
 }
 
 /* settingan tag 'ul' dan 'li' */
@@ -30,7 +29,7 @@ li.join{
 
 li.login{
   @apply mr-8 bg-white text-purple-700;
-  @apply block text-center no-underline;
+  @apply block text-center no-underline rounded-full;
 }
 
 li a {
