@@ -22,16 +22,28 @@
         <button>Search</button>
       </div>
     </div>
+
+    <!-- Start Partner Section -->
+    <Partner />
+    <!-- End Partner Section -->
+
+    <!-- Start Kegiatan Section -->
+    <Kegiatan />
+    <!-- End Kegiatan Section -->
   </div>
 </template>
 
 <script>
 import NavBar from '~/components/navbar.vue'
+import Partner from '~/components/Partner.vue'
+import Kegiatan from '~/components/Kegiatan.vue'
 import './index.css'
 
 export default {
   components: {
-    NavBar
+    NavBar,
+    Partner,
+    Kegiatan
   }
 }
 </script>
