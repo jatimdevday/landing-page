@@ -1,5 +1,7 @@
+// Navigation Bar Components //
 <template>
   <div class="navbar">
+    <!-- logo JDD -->
     <div class="logo">
       <a href="/">
         <img
@@ -12,7 +14,7 @@
           alt="text logo JDD"
         ></a>
     </div>
-
+    <!-- tombol login dan join -->
     <ul>
       <li class="join">
         <nuxt-link to="/register">
