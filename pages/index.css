@@ -1,4 +1,5 @@
-.main{
+/* main */
+.container-main{
   background-image: url("../static/bg-main.png");
   @apply h-screen justify-center w-full bg-cover;
 }
@@ -6,7 +7,7 @@
 .title {
   font-family: 'Roboto', sans-serif;
   padding-top: 30vh;
-  @apply block font-bold text-7xl text-white text-center; /*added font size '7xl' in tailwind.config.js*/
+  @apply block font-bold text-7xl text-white text-center ; /*added font size '7xl' in tailwind.config.js*/
 }
 
 .subtitle {
@@ -14,14 +15,28 @@
   @apply block font-normal text-xl text-white text-center;
 }
 
-
-/* not fixed searchbar */
-.searchbar{
-  text-align: center;
-  border-radius: 5px;
-  @apply grid grid-cols-12 w-4;
+/* searchbar */
+.container-searchbar{
+  @apply pt-10 flex justify-center;
 }
 
-.input{
-  @apply text-left mt-8 pt-5 pb-5 pl-5;
+.searchbar{
+  @apply flex relative border-black rounded-l-lg pl-16 py-4 pr-64;
+  @apply inline-block bg-no-repeat;
+  background-image: url("../static/search-icon.svg");
+  background-position: 5% 50%;
+}
+
+.searchbar:focus{
+  outline: none;
+}
+
+button{
+  @apply bg-blue-400 text-white rounded-r-lg p-5;
+  background-color: #FA7268;
+}
+
+button:focus{
+  background-color: rgb(255, 175, 175);
+  @apply outline-none
 }

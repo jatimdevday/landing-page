@@ -1,7 +1,10 @@
+// Home Page //
 <template>
   <div>
     <NavBar />
-    <div class="main">
+    <!-- tampilan utama -->
+    <div class="container-main">
+      <!-- judul -->
       <h1 class="title">
         Jatim Developer Day
       </h1>
@@ -9,19 +12,21 @@
         Kolaborasi antar komunitas di Jawa Timur yang berawal dari guyonan <br>
         di salah satu grup diskusi komunitas
       </h2>
-      <div class="searchbar">
+      <!-- search bar -->
+      <div class="container-searchbar">
         <input
-          class="input"
+          class="searchbar"
           type="text"
           placeholder="Search community"
         >
+        <button>Search</button>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import NavBar from '~/components/NavBar.vue'
+import NavBar from '~/components/navbar.vue'
 import './index.css'
 
 export default {

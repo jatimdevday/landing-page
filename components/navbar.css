@@ -1,7 +1,9 @@
+/* container navbar */
 .navbar {
   @apply fixed w-full z-50;
 }
 
+/* logo JDD */
 .logo img{
   @apply pt-3 pl-24;
   @apply float-left;
@@ -11,6 +13,7 @@ img.textlogo{
   @apply pt-8 pr-10 pl-4;
 }
 
+/* settingan tag 'ul' dan 'li' */
 ul {
   @apply pt-3 overflow-hidden list-none;
 }
@@ -40,7 +43,6 @@ li a:hover:not(.active) {
   @apply rounded-full text-white;
   @apply transition-colors ease-in duration-150;
 }
-
 
 /* nyoba responsive */
 @screen sm {
