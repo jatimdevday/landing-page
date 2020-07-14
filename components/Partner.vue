@@ -20,23 +20,11 @@
         <h1 class="ml-24 italic">
           Media Partner
         </h1>
-        <div class="flex flex-wrap flex-auto my-2 media-sec">
-          <img
-            src="../assets/images/partner/indiekraf.png"
-            width="150px"
-          >
-          <img
-            src="../assets/images/partner/riset.png"
-            width="120px"
-          >
-          <img
-            src="../assets/images/partner/logodilomalang.png"
-            width="120px"
-          >
-          <img
-            src="../assets/images/partner/kawankoding.png"
-            width="120px"
-          >
+        <div class="flex flex-wrap flex-auto my-2  media-sec">
+          <img src="../assets/images/partner/indiekraf.png">
+          <img src="../assets/images/partner/riset.png">
+          <img src="../assets/images/partner/logodilomalang.png">
+          <img src="../assets/images/partner/kawankoding.png">
         </div>
       </div>
     </div>
@@ -61,17 +49,12 @@ export default {
    margin-left: 10px;
    width: 120px;
    height: 100px;
-   left: 120px;
-   top: 897px;
  }
 
  .media-sec img {
    margin-left: 20px;
    margin-top: 30px;
-   /* width: 140px;
-   height: 70px; */
-   left: 120px;
-   top: 897px;
+   width: 143px;
  }
 
 </style>
