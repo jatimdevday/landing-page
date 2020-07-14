@@ -12,11 +12,11 @@
       <div class="flex flex-wrap -mx-1 lg:-mx-4">
         <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 mb-3">
           <!-- Article -->
-          <article class="overflow-hidden rounded-lg shadow-lg">
+          <article class="overflow-hidden rounded-md shadow-md">
             <a href="#">
               <img
                 alt="Placeholder"
-                class="block h-auto w-full"
+                class="block "
                 src="../assets/images/kegiatan/1.jpeg"
               >
             </a>
@@ -24,7 +24,7 @@
             <header class="flex items-center justify-between leading-tight p-2 md:p-4">
               <h1 class="text-lg capitalize font-semibold">
                 <a
-                  class="no-underline hover:underline text-black text-header"
+                  class="no-underline hover:text-gray-800 text-black text-header"
                   href="#"
                 >
                   Webinar JatimDevDay #1
@@ -39,11 +39,11 @@
         </div>
         <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 mb-3">
           <!-- Article -->
-          <article class="overflow-hidden rounded-lg shadow-lg">
+          <article class="overflow-hidden rounded-md shadow-md">
             <a href="#">
               <img
                 alt="Placeholder"
-                class="block h-auto w-full"
+                class="block"
                 src="../assets/images/kegiatan/2.jpg"
               >
             </a>
@@ -51,7 +51,7 @@
             <header class="flex items-center justify-between leading-tight p-2 md:p-4">
               <h1 class="text-lg capitalize font-semibold">
                 <a
-                  class="no-underline hover:underline text-black text-header"
+                  class="no-underline hover:text-gray-800 text-black text-header"
                   href="#"
                 >
                   Webinar JatimDevDay #2
@@ -66,11 +66,11 @@
         </div>
         <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 mb-3">
           <!-- Article -->
-          <article class="overflow-hidden rounded-lg shadow-lg">
+          <article class="overflow-hidden rounded-md shadow-md">
             <a href="#">
               <img
                 alt="Placeholder"
-                class="block h-auto w-full"
+                class="block"
                 src="../assets/images/kegiatan/3.jpg"
               >
             </a>
@@ -78,7 +78,7 @@
             <header class="flex items-center justify-between leading-tight p-2 md:p-4">
               <h1 class="text-lg capitalize font-semibold">
                 <a
-                  class="no-underline hover:underline text-black text-header"
+                  class="no-underline hover:text-gray-800 text-black text-header"
                   href="#"
                 >
                   Webinar JatimDevDay #3
@@ -94,11 +94,11 @@
 
         <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 mb-3">
           <!-- Article -->
-          <article class="overflow-hidden rounded-lg shadow-lg">
+          <article class="overflow-hidden rounded-md shadow-md">
             <a href="#">
               <img
                 alt="Placeholder"
-                class="block h-auto w-full"
+                class="block"
                 src="../assets/images/kegiatan/4.jpg"
               >
             </a>
@@ -106,7 +106,7 @@
             <header class="flex items-center justify-between leading-tight p-2 md:p-4">
               <h1 class="text-lg capitalize font-semibold">
                 <a
-                  class="no-underline hover:underline text-black text-header"
+                  class="no-underline hover:text-gray-800 text-black text-header"
                   href="#"
                 >
                   Webinar JatimDevDay #4
@@ -121,11 +121,11 @@
         </div>
         <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 mb-3">
           <!-- Article -->
-          <article class="overflow-hidden rounded-lg shadow-lg">
+          <article class="overflow-hidden rounded-md shadow-md">
             <a href="#">
               <img
                 alt="Placeholder"
-                class="block h-auto w-full"
+                class="block"
                 src="../assets/images/kegiatan/5.jpg"
               >
             </a>
@@ -133,7 +133,7 @@
             <header class="flex items-center justify-between leading-tight p-2 md:p-4">
               <h1 class="text-lg capitalize font-semibold">
                 <a
-                  class="no-underline hover:underline text-black text-header"
+                  class="no-underline hover:text-gray-800 text-black text-header"
                   href="#"
                 >
                   Webinar JatimDevDay #1
@@ -148,11 +148,11 @@
         </div>
         <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 mb-3">
           <!-- Article -->
-          <article class="overflow-hidden rounded-lg shadow-lg">
+          <article class="overflow-hidden rounded-md shadow-md">
             <a href="#">
               <img
                 alt="Placeholder"
-                class="block h-auto w-full"
+                class="block"
                 src="../assets/images/kegiatan/6.jpg"
               >
             </a>
@@ -160,7 +160,7 @@
             <header class="flex items-center justify-between leading-tight p-2 md:p-4">
               <h1 class="text-lg capitalize font-semibold">
                 <a
-                  class="no-underline hover:underline text-black text-header"
+                  class="no-underline hover:text-gray-800 text-black text-header"
                   href="#"
                 >
                   Webinar JatimDevDay #6
@@ -207,6 +207,9 @@ export default {
     font-size: 14px;
     line-height: 16px;
     color: rgba(0, 0, 0, 0.6);
-
+}
+article img {
+  width: 380px;
+  height: 202px;
 }
 </style>
