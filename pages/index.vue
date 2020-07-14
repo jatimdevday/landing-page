@@ -30,6 +30,10 @@
     <!-- Start Kegiatan Section -->
     <Kegiatan />
     <!-- End Kegiatan Section -->
+
+    <!-- Start Kegiatan Section -->
+    <Footer />
+    <!-- End Kegiatan Section -->
   </div>
 </template>
 
@@ -37,13 +41,15 @@
 import NavBar from '~/components/navbar.vue'
 import Partner from '~/components/Partner.vue'
 import Kegiatan from '~/components/Kegiatan.vue'
+import Footer from '~/components/Footer.vue'
 import './index.css'
 
 export default {
   components: {
     NavBar,
     Partner,
-    Kegiatan
+    Kegiatan,
+    Footer
   }
 }
 </script>
