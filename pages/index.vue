@@ -1,4 +1,3 @@
-// Home Page //
 <template>
   <div>
     <NavBar />
@@ -39,10 +38,9 @@
 
 <script>
 import NavBar from '~/components/navbar.vue'
-import Partner from '~/components/Partner.vue'
-import Activity from '~/components/Activity.vue'
-import Footer from '~/components/Footer.vue'
-import './index.css'
+import Partner from '~/components/partner.vue'
+import Activity from '~/components/activity.vue'
+import Footer from '~/components/footer.vue'
 
 export default {
   components: {
@@ -53,3 +51,48 @@ export default {
   }
 }
 </script>
+
+<style>
+/* main */
+.container-main {
+  background-image: linear-gradient(to bottom right, #50196c, #b61c85);
+  @apply h-screen justify-center w-full bg-cover;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  padding-top: 30vh;
+  @apply block font-bold text-7xl text-white text-center; /*added font size '7xl' in tailwind.config.js*/
+}
+
+.subtitle {
+  font-family: "Roboto", sans-serif;
+  @apply block font-normal text-xl text-white text-center;
+}
+
+/* searchbar */
+.container-searchbar {
+  @apply pt-10 flex justify-center;
+}
+
+.searchbar {
+  @apply flex relative border-black rounded-l-lg pl-16 py-4 pr-64;
+  @apply inline-block bg-no-repeat;
+  background-image: url("../static/search-icon.svg");
+  background-position: 5% 50%;
+}
+
+.searchbar:focus {
+  outline: none;
+}
+
+button {
+  @apply bg-blue-400 text-white rounded-r-lg p-5;
+  background-color: #fa7268;
+}
+
+button:focus {
+  background-color: rgb(255, 175, 175);
+  @apply outline-none;
+}
+</style>
