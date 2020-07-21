@@ -33,8 +33,8 @@ $ npm run generate
 ```
 
 # List Of Contributor 
-[//]: contributor-faces
 
 [//]: contributor-faces
-<a href="https://github.com/ngryman"><img src="https://avatars.githubusercontent.com/u/892048?v=3" title="ngryman" width="80" height="80"></a>
-[//]: contributor-faces
+<a href="https://github.com/gelembungsahabat"><img src="https://avatars.githubusercontent.com/u/892048?v=3" title="wildan" width="80" height="80"></a>
+<a href="https://github.com/ackerman17"><img src="https://avatars.githubusercontent.com/u/892048?v=3" title="hafidz" width="80" height="80"></a>
+<a href="https://github.com/tegarimansyah"><img src="https://avatars.githubusercontent.com/u/892048?v=3" title="tegar" width="80" height="80"></a>
