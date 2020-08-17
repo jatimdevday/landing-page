@@ -35,6 +35,6 @@ $ npm run generate
 # List Of Contributor 
 
 [//]: contributor-faces
-<a href="https://github.com/gelembungsahabat"><img src="https://avatars.githubusercontent.com/u/892048?v=3" title="wildan" width="80" height="80"></a>
-<a href="https://github.com/ackerman17"><img src="https://avatars.githubusercontent.com/u/892048?v=3" title="hafidz" width="80" height="80"></a>
-<a href="https://github.com/tegarimansyah"><img src="https://avatars.githubusercontent.com/u/892048?v=3" title="tegar" width="80" height="80"></a>
+<a href="https://github.com/gelembungsahabat"><img src="https://avatars.githubusercontent.com/gelembungsahabat" title="wildan" width="80" height="80"></a>
+<a href="https://github.com/ackerman17"><img src="https://avatars.githubusercontent.com/ackerman17" title="hafidz" width="80" height="80"></a>
+<a href="https://github.com/tegarimansyah"><img src="https://avatars.githubusercontent.com/tegarimansyah" title="tegar" width="80" height="80"></a>

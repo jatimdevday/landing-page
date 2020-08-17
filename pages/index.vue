@@ -23,12 +23,14 @@
     </div>
 
     <!-- Start Partner Section -->
-    <Partner />
+    <CommPartner />
     <!-- End Partner Section -->
 
     <!-- Start Activity Section -->
     <Activity />
     <!-- End Kegiatan Activity -->
+
+    <MediaPartner />
 
     <!-- Start Footer Section -->
     <Footer />
@@ -38,14 +40,16 @@
 
 <script>
 import NavBar from '~/components/navbar.vue'
-import Partner from '~/components/partner.vue'
+import CommPartner from '~/components/communityPartner.vue'
+import MediaPartner from '~/components/mediaPartner.vue'
 import Activity from '~/components/activity.vue'
 import Footer from '~/components/footer.vue'
 
 export default {
   components: {
     NavBar,
-    Partner,
+    CommPartner,
+    MediaPartner,
     Activity,
     Footer
   }
