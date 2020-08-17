@@ -8,7 +8,7 @@
         <h1 class="text-center italic mb-1">
           Media Partner
         </h1>
-        <div class="flex flex-wrap flex-auto ml-64 mb-20 media-sec">
+        <div class="flex flex-wrap flex-auto ml-24 mb-20 media-sec">
           <img src="../assets/images/partner/Indiekraf.png">
           <img src="../assets/images/partner/riset.png">
           <img src="../assets/images/partner/logodilomalang.png">
@@ -26,15 +26,11 @@
   font-weight: 500;
   color: #515151;
 }
-.comm-sec img {
-  margin-left: 10px;
-  width: 120px;
-  height: 100px;
-}
 .media-sec img {
-  margin-left: 40px;
+  margin-left: 50px;
   margin-top: 30px;
-  width: 125px;
+  width: 200px;
+  object-fit: contain;
 }
 </style>
 

@@ -8,7 +8,7 @@
         <h1 class="italic mb-1 text-center">
           Community Partner
         </h1>
-        <div class="flex flex-wrap flex-auto ml-32 mt-8 comm-sec">
+        <div class="flex flex-wrap flex-auto ml-24 mt-8 comm-sec">
           <img src="../assets/images/partner/ngalam.png">
           <img src="../assets/images/partner/pasuruandev.jpg">
           <img src="../assets/images/partner/ixda.png">
@@ -37,14 +37,9 @@ export default {
 }
 
 .comm-sec img {
-  margin-left: 10px;
+  margin-left: 25px;
   width: 120px;
-  height: 100px;
-}
-
-.media-sec img {
-  margin-left: 40px;
-  margin-top: 30px;
-  width: 125px;
+  height: 120px;
+  object-fit: contain;
 }
 </style>
