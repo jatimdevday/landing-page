@@ -16,7 +16,13 @@
 
       <div class="block lg:hidden">
         <button class="flex items-center bg-white" @click="toggleMenu">
-          <img src="~/assets/images/icons/menu-24px.svg">
+          <!-- <img :src="btnMenu ? '~/assets/images/icons/menu_open-24px.svg':'~/assets/images/icons/menu-24px.svg'"> -->
+          <template v-if="btnMenu">
+            <img src="~/assets/images/icons/menu_open-24px.svg">
+          </template>
+          <template v-else>
+            <img src="~/assets/images/icons/menu-24px.svg">
+          </template>
         </button>
       </div>
 
