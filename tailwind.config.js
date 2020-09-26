@@ -6,6 +6,7 @@
 */
 module.exports = {
   theme: {
+
     fontSize: {
       xs: '.75rem',
       sm: '.875rem',
@@ -18,8 +19,15 @@ module.exports = {
       '5xl': '3rem',
       '6xl': '4rem',
       '7xl': '5rem'
+    },
+    extend: {
+      colors: {
+        utama: '#50196c',
+        tombol: '#FA7268'
+      }
     }
   },
   variants: {},
   plugins: []
+
 }

@@ -1,8 +1,9 @@
 <template>
   <div>
     <NavBar />
+
     <!-- tampilan utama -->
-    <div class="container-main">
+    <div class="container-main pt-24">
       <!-- judul -->
       <h1 class="title">
         Jatim Developer Day
