@@ -46,8 +46,19 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv'
+    '@nuxtjs/dotenv',
+    '@nuxtjs/auth'
   ],
+
+  auth: {
+    strategies: {
+      google: {
+        client_id: '890412965050-6fdares984g93has92j7q4q798j0glp6.apps.googleusercontent.com',
+        user: false,
+        redirect_uri: 'http://localhost:3000/callback'
+      }
+    }
+  },
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
