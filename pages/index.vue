@@ -1,77 +1,103 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
+  <div>
+    <NavBar />
+
+    <!-- tampilan utama -->
+    <div class="container-main pt-24">
+      <!-- judul -->
       <h1 class="title">
-        jdd-landing-page
+        Jatim Developer Day
       </h1>
       <h2 class="subtitle">
-        Jatim Developer Day Landing Page
+        Kolaborasi antar komunitas di Jawa Timur yang berawal dari guyonan <br>
+        di salah satu grup diskusi komunitas
       </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
+      <!-- search bar -->
+      <div class="container-searchbar">
+        <input
+          class="searchbar"
+          type="text"
+          placeholder="Search community"
         >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+        <button>Search</button>
       </div>
     </div>
+
+    <!-- Start Partner Section -->
+    <CommPartner />
+    <!-- End Partner Section -->
+
+    <!-- Start Activity Section -->
+    <Activity />
+    <!-- End Kegiatan Activity -->
+
+    <MediaPartner />
+
+    <!-- Start Footer Section -->
+    <Footer />
+    <!-- End Footer Section -->
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import NavBar from '~/components/navbar.vue'
+import CommPartner from '~/components/communityPartner.vue'
+import MediaPartner from '~/components/mediaPartner.vue'
+import Activity from '~/components/activity.vue'
+import Footer from '~/components/footer.vue'
 
 export default {
   components: {
-    Logo
+    NavBar,
+    CommPartner,
+    MediaPartner,
+    Activity,
+    Footer
   }
 }
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+/* main */
+.container-main {
+  background-image: linear-gradient(to bottom right, #50196c, #b61c85);
+  @apply h-screen justify-center w-full bg-cover;
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  padding-top: 30vh;
+  @apply block font-bold text-7xl text-white text-center; /*added font size '7xl' in tailwind.config.js*/
 }
 
 .subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  @apply block font-normal text-xl text-white text-center;
 }
 
-.links {
-  padding-top: 15px;
+/* searchbar */
+.container-searchbar {
+  @apply pt-10 flex justify-center;
+}
+
+.searchbar {
+  @apply flex relative border-black rounded-l-lg pl-16 py-4 pr-64;
+  @apply inline-block bg-no-repeat;
+  background-image: url("../static/search-icon.svg");
+  background-position: 5% 50%;
+}
+
+.searchbar:focus {
+  outline: none;
+}
+
+button {
+  @apply bg-blue-400 text-white rounded-r-lg p-5;
+  background-color: #fa7268;
+}
+
+button:focus {
+  background-color: rgb(255, 175, 175);
+  @apply outline-none;
 }
 </style>

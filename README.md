@@ -1,9 +1,22 @@
-# jdd-landing-page
 
-> Jatim Developer Day Landing Page
+# **Jatim Developer Day**
+> Offical Website Landing Page JDD
 
-## Build Setup
+---
+# **Design Website**
+> Design By Figma
+![](static/design.jpg)
 
+---
+# **Fitur Website**
+* Join Website
+* Log In
+* Search Community
+* Section Community & Media Partner
+* Section Kegiatan
+
+---
+# **Proses Development**
 ```bash
 # install dependencies
 $ npm install
@@ -19,4 +32,9 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+# List Of Contributor 
+
+[//]: contributor-faces
+<a href="https://github.com/gelembungsahabat"><img src="https://avatars.githubusercontent.com/gelembungsahabat" title="wildan" width="80" height="80"></a>
+<a href="https://github.com/ackerman17"><img src="https://avatars.githubusercontent.com/ackerman17" title="hafidz" width="80" height="80"></a>
+<a href="https://github.com/tegarimansyah"><img src="https://avatars.githubusercontent.com/tegarimansyah" title="tegar" width="80" height="80"></a>
